@@ -1,0 +1,55 @@
+/* Board.css */
+.board {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.project-list {
+  display: flex;
+  gap: 10px;
+}
+
+.project {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project:hover {
+  background-color: #eaeaea;
+}
+
+.project-list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  overflow-x: auto; /* プロジェクトボックスの横スクロールを許可 */
+  white-space: nowrap; /* プロジェクトボックスが横に並ぶようにする */
+}
+
+.lane-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; /* Laneの横スクロールを許可 */
+  white-space: nowrap; /* Laneが横に並ぶようにする */
+}
+
+.add-lane {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.scroll-right-button {
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 20px;
+}

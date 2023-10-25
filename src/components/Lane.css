@@ -1,0 +1,33 @@
+/* Lane.css */
+.lane {
+  display: inline-block; /* Laneを横に並べる */
+  vertical-align: top; /* 上揃えにする */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 20px; /* Laneの右側にマージンを追加 */
+}
+
+.lane h2 {
+  margin: 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.lane-header input {
+  font-size: 18px;
+  padding: 5px;
+  width: 100%;
+}
+
+.lists-container {
+  margin-top: 10px;
+}
+
+.add-list {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}

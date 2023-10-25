@@ -1,0 +1,57 @@
+/* List.css */
+.list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+}
+
+.list-header input {
+  flex: 1;
+  padding: 5px;
+}
+
+.list-header button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.list-items {
+  list-style: none;
+  padding: 0;
+}
+
+.list-items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.list-items button {
+  cursor: pointer;
+}
+
+.detail-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.detail-modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
